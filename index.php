@@ -13,10 +13,13 @@ and open the template in the editor.
     <body>
         <nav>
             <div class="conatainer">
-                <div class="jumbotron" >
-                    <h1 align="center">Reserva Aí</h1>
+                
+                <div class="jumbotron"  id="jub"style="background-color:burlywood" >
+                    <h1 id="intro">Reserva Aí</h1>
                 </div>
-            </div>
+                   
+        
+                 </div>
         </nav>
         
         
@@ -26,16 +29,15 @@ and open the template in the editor.
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-            <h5 class="card-title text-center">ENTRAR</h5>
+            <h5 class="card-title">Login</h5>
             <form class="form-signin">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <label for="inputEmail">Username</label>
+                  <input type="text" id="usuario" class="form-control" placeholder="Digite seu Usuário" required autofocus>
+                <label for="usuario">Digite seu Usuário</label>
               </div>
-
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
+                <input type="password" id="senha" class="form-control" placeholder="Password" required>
+                <label for="senha">Digite sua Senha</label>
               </div>
 
               <div class="custom-control custom-checkbox mb-3">
@@ -43,7 +45,7 @@ and open the template in the editor.
                 <label class="custom-control-label" for="customCheck1">Esqueceu a senha?</label>
                
               </div>
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase"  type="submit">Entrar</button>
               <hr class="my-4">
               
             </form>

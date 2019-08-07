@@ -1,7 +1,13 @@
 body {
   background-image: url(../img/teste.jpg); 
 }
-
+#intro{
+    text-align: center ;
+    font-size: 85px;
+    margin-bottom:-15px;
+    margin-top: -45px;
+    color:#3b5998; 
+}
 .card-signin {
   border: 0;
   border-radius: 1rem;
