@@ -14,7 +14,7 @@ and open the template in the editor.
         <nav>
             <div class="conatainer">
                 
-                <div class="jumbotron"  id="jub"style="background-color:burlywood" >
+                <div class="jumbotron"  id="jub"style="background-color:#b1dfbb" >
                     <h1 id="intro">Reserva Aí</h1>
                 </div>
                    
